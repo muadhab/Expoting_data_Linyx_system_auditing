@@ -1,0 +1,349 @@
+<html>
+<head>
+<title>Security Audit Report for Neurones IT</title>
+<style>
+body { font-family: Arial, sans-serif; }
+h1 { color: #2C3E50; }
+h2 { color: #34495E; }
+table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+th, td { border: 1px solid #BDC3C7; padding: 8px; text-align: left; }
+th { background-color: #2C3E50; color: white; }
+.warning { color: red; }
+</style>
+</head>
+<body>
+<h1>Security Audit Report for Neurones IT</h1>
+<h2>Audit Date: Thu Oct  3 16:29:20 UTC 2024</h2>
+<h2>Hostname: project-817627b2-9287-44c4-81c7-89746fe74c7e</h2>
+<hr>
+<h2>System Information</h2>
+<table>
+<tr><th>Property</th><th>Value</th></tr>
+<tr><td>Hostname</td><td>project-817627b2-9287-44c4-81c7-89746fe74c7e</td></tr>
+<tr><td>Operating System</td><td>Ubuntu 22.04.5 LTS</td></tr>
+<tr><td>Kernel Version</td><td>5.15.0-1046-gcp</td></tr>
+<tr><td>Uptime</td><td>up 1 week, 1 day, 3 hours, 57 minutes</td></tr>
+<tr><td>Architecture</td><td>x86_64</td></tr>
+</table>
+<h2>User Accounts</h2>
+<table>
+<tr><th>Description</th><th>Count</th></tr>
+<tr><td>Total Users</td><td>46</td></tr>
+<tr><td>Administrator Accounts</td><td>1</td></tr>
+<tr><td>Accounts with No Password</td><td>0</td></tr>
+</table>
+<h2>Password Policies</h2>
+<table>
+<tr><th>Policy</th><th>Value</th></tr>
+<tr><td>Password Expiration</td><td>99999 days</td></tr>
+<tr><td>Password Minimum Length</td><td> characters</td></tr>
+<tr><td>Password Complexity Requirements</td><td>SHA512</td></tr>
+</table>
+<h2>SSH Configuration</h2>
+<table>
+<tr><th>Configuration</th><th>Status</th></tr>
+<tr><td>PermitRootLogin</td><td><span class='warning'>Enabled</span></td></tr>
+<tr><td>PasswordAuthentication</td><td><span class='warning'>Enabled</span></td></tr>
+<tr><td>PermitEmptyPasswords</td><td>Not Allowed</td></tr>
+</table>
+<h2>Firewall Status</h2>
+<table>
+<tr><th>Status</th></tr>
+<tr><td>UFW is inactive!</td></tr>
+</table>
+<h2>Running Services</h2>
+<table>
+<tr><th>Active Services</th></tr>
+</table>
+<h2>File Permissions</h2>
+<table>
+<tr><th>File</th><th>Permissions</th></tr>
+<tr><td>/etc/shadow</td><td>-rw-r-----</td></tr>
+<tr><td>/etc/passwd</td><td>-rw-r--r--</td></tr>
+<tr><td>SSH keys</td><td>-rw-------
+-rw-------
+-rw-------</td></tr>
+</table>
+<h2>Cron Jobs</h2>
+<table>
+<tr><th>User</th><th>Cron Jobs</th></tr>
+<tr><td>Current User</td><td>No crontab</td></tr>
+<tr><td>System Jobs</td><td>/etc/cron.d: e2scrub_all php sysstat /etc/cron.daily: apache2 apt-compat aptitude calendar cracklib-runtime dpkg google-chrome logrotate man-db ntp quota sysstat tmpreaper /etc/cron.hourly: /etc/cron.monthly: /etc/cron.weekly: man-db update-libcifpp-data</td></tr>
+</table>
+<h2>Software Updates</h2>
+<table>
+<tr><th>Updates Status</th></tr>
+<tr><td>Updates available for installation.</td></tr>
+</table>
+<h2>Log Review</h2>
+<table>
+<tr><th>Recent Authentication Failures</th></tr>
+</table>
+<h2>Installed Packages</h2>
+<table>
+<tr><th>Property</th><th>Value</th></tr>
+<tr><td>Total Installed Packages</td><td>10277</td></tr>
+<tr><td>Vulnerable Packages</td><td>r-base-dev/jammy-cran40 4.4.1-1.2204.0 all [upgradable from: 4.4.0-1.2204.0]
+r-cran-terra/jammy 1.7-71-1cran1.2204.0 amd64 [upgradable from: 1.7-65-1cran1.2204.0]</td></tr>
+</table>
+<h2>Kernel Parameters</h2>
+<table>
+<tr><th>Parameter</th><th>Value</th></tr>
+<tr><td>fs.suid_dumpable</td><td>2</td></tr>
+<tr><td>kernel.core_uses_pid</td><td>0</td></tr>
+<tr><td>kernel.kptr_restrict</td><td>1</td></tr>
+<tr><td>kernel.yama.ptrace_scope</td><td>1</td></tr>
+</table>
+<h2>System Integrity Checks</h2>
+<table>
+<tr><th>Check</th><th>Status</th></tr>
+<tr><td>Debsums</td><td>Not installed; skipping package integrity checks.</td></tr>
+</table>
+<h2>Unused Packages</h2>
+<table>
+<tr><th>Package</th></tr>
+<tr><td>cups</td></tr>
+<tr><td>cups-browsed</td></tr>
+<tr><td>cups-core-drivers</td></tr>
+<tr><td>cups-daemon</td></tr>
+<tr><td>cups-filters</td></tr>
+<tr><td>grafana</td></tr>
+<tr><td>ibus</td></tr>
+<tr><td>im-config</td></tr>
+<tr><td>libcifpp-data</td></tr>
+<tr><td>libcommons-validator-java</td></tr>
+<tr><td>openjdk-8-jre-headless:amd64</td></tr>
+<tr><td>pgdg-keyring</td></tr>
+<tr><td>printer-driver-cups-pdf</td></tr>
+<tr><td>systemd-timesyncd</td></tr>
+<tr><td>velocity</td></tr>
+</table>
+<h2>Memory and Processes</h2>
+<table>
+<tr><th>Description</th><th>Value</th></tr>
+<tr><td>Total Memory</td><td>31Gi</td></tr>
+<tr><td>Used Memory</td><td>8.4Gi</td></tr>
+<tr><td>Total Processes</td><td>11</td></tr>
+<tr><td>Running Processes</td><td>10</td></tr>
+</table>
+<h2>Disk Information</h2>
+<table>
+<tr><th>Filesystem</th><th>Size</th><th>Used</th><th>Available</th><th>Use%</th></tr>
+<tr><td>overlay</td><td>170G</td><td>66G</td><td>104G</td><td>39%</td></tr>
+<tr><td>tmpfs</td><td>64M</td><td>0</td><td>64M</td><td>0%</td></tr>
+<tr><td>tmpfs</td><td>16G</td><td>0</td><td>16G</td><td>0%</td></tr>
+<tr><td>10.105.159.225:/ubuntu2204_2024-09-30/linux/Ubuntu-22.04/libx32</td><td>2.4T</td><td>2.0T</td><td>406G</td><td>83%</td></tr>
+<tr><td>tmpfs</td><td>16G</td><td>0</td><td>16G</td><td>0%</td></tr>
+<tr><td>10.105.159.225:/ubuntu2204_2024-09-30/linux/Ubuntu-22.04/bin</td><td>2.4T</td><td>2.0T</td><td>406G</td><td>83%</td></tr>
+<tr><td>10.105.159.225:/ubuntu2204_2024-09-30/linux/Ubuntu-22.04/lib</td><td>2.4T</td><td>2.0T</td><td>406G</td><td>83%</td></tr>
+<tr><td>10.105.159.225:/ubuntu2204_2024-09-30/linux/Ubuntu-22.04/lib64</td><td>2.4T</td><td>2.0T</td><td>406G</td><td>83%</td></tr>
+<tr><td>10.105.159.225:/ubuntu2204_2024-09-30/linux/Ubuntu-22.04/lib32</td><td>2.4T</td><td>2.0T</td><td>406G</td><td>83%</td></tr>
+<tr><td>/dev/sda1</td><td>170G</td><td>66G</td><td>104G</td><td>39%</td></tr>
+<tr><td>10.105.159.225:/ubuntu2204_2024-09-30/linux/Ubuntu-22.04/var</td><td>2.4T</td><td>2.0T</td><td>406G</td><td>83%</td></tr>
+<tr><td>10.105.159.225:/ubuntu2204_2024-09-30/linux/Ubuntu-22.04/opt</td><td>2.4T</td><td>2.0T</td><td>406G</td><td>83%</td></tr>
+<tr><td>10.105.159.225:/ubuntu2204_2024-09-30/linux/Ubuntu-22.04/sbin</td><td>2.4T</td><td>2.0T</td><td>406G</td><td>83%</td></tr>
+<tr><td>10.105.159.225:/ubuntu2204_2024-09-30/linux/Ubuntu-22.04/usr</td><td>2.4T</td><td>2.0T</td><td>406G</td><td>83%</td></tr>
+<tr><td>10.105.159.225:/ubuntu2204_2024-09-30</td><td>2.4T</td><td>2.0T</td><td>406G</td><td>83%</td></tr>
+<tr><td>10.105.159.225:/ubuntu2204_2024-09-30/linux/Ubuntu-22.04/srv</td><td>2.4T</td><td>2.0T</td><td>406G</td><td>83%</td></tr>
+<tr><td>10.105.159.225:/ubuntu2204_2024-09-30/linux/Ubuntu-22.04/etc</td><td>2.4T</td><td>2.0T</td><td>406G</td><td>83%</td></tr>
+<tr><td>tmpfs</td><td>16G</td><td>56K</td><td>16G</td><td>1%</td></tr>
+<tr><td>kucalc-default-project-817627b2-9287-44c4-81c7-89746fe74c7e</td><td>3.0G</td><td>384K</td><td>3.0G</td><td>1%</td></tr>
+<tr><td>/var/lib/kubelet/pods/ccf34930-c50b-4d67-bfe7-68f5108655d2/volumes/cocalc~zfs/home/.zfs/snapshot</td><td>3.0G</td><td>384K</td><td>3.0G</td><td>1%</td></tr>
+<tr><td>tmpfs</td><td>16G</td><td>4.0K</td><td>16G</td><td>1%</td></tr>
+<tr><td>tmpfs</td><td>16G</td><td>4.0K</td><td>16G</td><td>1%</td></tr>
+<tr><td>shm</td><td>64M</td><td>0</td><td>64M</td><td>0%</td></tr>
+<tr><td>tmpfs</td><td>16G</td><td>0</td><td>16G</td><td>0%</td></tr>
+<tr><td>tmpfs</td><td>16G</td><td>0</td><td>16G</td><td>0%</td></tr>
+<tr><td>tmpfs</td><td>16G</td><td>0</td><td>16G</td><td>0%</td></tr>
+</table>
+<h2>Networking Information</h2>
+<table>
+<tr><th>Property</th><th>Value</th></tr>
+<tr><td>Hostname</td><td>project-817627b2-9287-44c4-81c7-89746fe74c7e</td></tr>
+<tr><td>IP Address</td><td>192.168.112.158</td></tr>
+<tr><td>Network Interfaces</td><td>tunl0@NONE eth0@if3476 b7</td></tr>
+</table>
+<h2>Opened Ports</h2>
+<table>
+<tr><th>Protocol</th><th>Port</th><th>Status</th></tr>
+</table>
+<h2>CIS Benchmark Checks</h2>
+<table>
+<tr><th>Check</th><th>Status</th></tr>
+<tr><td>Ensure the latest updates are installed</td><td>Ign:1 http://ppa.launchpad.net/cwchien/gradle/ubuntu jammy InRelease
+Ign:2 http://ppa.launchpad.net/fenics-packages/fenics/ubuntu jammy InRelease
+Ign:3 http://ppa.launchpad.net/haxe/releases/ubuntu jammy InRelease
+Ign:4 http://ppa.launchpad.net/c2d4u.team/c2d4u4.0+/ubuntu jammy InRelease
+Ign:5 http://ppa.launchpad.net/plt/racket/ubuntu jammy InRelease
+Ign:6 http://ppa.launchpad.net/sumo/stable/ubuntu jammy InRelease
+Ign:7 https://ppa.launchpadcontent.net/cantera-team/cantera/ubuntu jammy InRelease
+Ign:8 https://ppa.launchpadcontent.net/macaulay2/macaulay2/ubuntu jammy InRelease
+Ign:9 https://ppa.launchpadcontent.net/mozillateam/ppa/ubuntu jammy InRelease
+Ign:10 https://qgis.org/ubuntu jammy InRelease
+Ign:11 https://apt.kitware.com/ubuntu jammy InRelease
+Ign:12 https://qgis.org/debian bullseye InRelease
+Ign:13 http://ftp.texmacs.org/TeXmacs/tmftp/repos/apt yakkety InRelease
+Ign:14 http://www-fourier.univ-grenoble-alpes.fr/~parisse/debian stable InRelease
+Ign:15 https://packagecloud.io/github/git-lfs/ubuntu jammy InRelease
+Ign:16 https://deb.nodesource.com/node_18.x jammy InRelease
+Ign:17 https://repo.scala-sbt.org/scalasbt/debian  InRelease
+Ign:18 http://apt.postgresql.org/pub/repos/apt jammy-pgdg InRelease
+Ign:19 https://dl.google.com/linux/chrome/deb stable InRelease
+Ign:20 https://cli.github.com/packages stable InRelease
+Ign:21 https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/ InRelease
+Ign:22 https://cli-assets.heroku.com/apt ./ InRelease
+Ign:23 http://apt.materialize.com generic InRelease
+Ign:1 http://ppa.launchpad.net/cwchien/gradle/ubuntu jammy InRelease
+Ign:2 http://ppa.launchpad.net/fenics-packages/fenics/ubuntu jammy InRelease
+Ign:3 http://ppa.launchpad.net/haxe/releases/ubuntu jammy InRelease
+Ign:4 http://ppa.launchpad.net/c2d4u.team/c2d4u4.0+/ubuntu jammy InRelease
+Ign:5 http://ppa.launchpad.net/plt/racket/ubuntu jammy InRelease
+Ign:6 http://ppa.launchpad.net/sumo/stable/ubuntu jammy InRelease
+Ign:7 https://ppa.launchpadcontent.net/cantera-team/cantera/ubuntu jammy InRelease
+Ign:8 https://ppa.launchpadcontent.net/macaulay2/macaulay2/ubuntu jammy InRelease
+Ign:9 https://ppa.launchpadcontent.net/mozillateam/ppa/ubuntu jammy InRelease
+Ign:10 https://qgis.org/ubuntu jammy InRelease
+Ign:11 https://apt.kitware.com/ubuntu jammy InRelease
+Ign:12 https://qgis.org/debian bullseye InRelease
+Ign:24 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Ign:25 http://archive.ubuntu.com/ubuntu jammy InRelease
+Ign:26 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
+Ign:27 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
+Ign:13 http://ftp.texmacs.org/TeXmacs/tmftp/repos/apt yakkety InRelease
+Ign:14 http://www-fourier.univ-grenoble-alpes.fr/~parisse/debian stable InRelease
+Ign:15 https://packagecloud.io/github/git-lfs/ubuntu jammy InRelease
+Ign:16 https://deb.nodesource.com/node_18.x jammy InRelease
+Ign:17 https://repo.scala-sbt.org/scalasbt/debian  InRelease
+Ign:19 https://dl.google.com/linux/chrome/deb stable InRelease
+Ign:18 http://apt.postgresql.org/pub/repos/apt jammy-pgdg InRelease
+Ign:20 https://cli.github.com/packages stable InRelease
+Ign:21 https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/ InRelease
+Ign:22 https://cli-assets.heroku.com/apt ./ InRelease
+Ign:23 http://apt.materialize.com generic InRelease
+Ign:25 http://archive.ubuntu.com/ubuntu jammy InRelease
+Ign:24 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Ign:26 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
+Ign:27 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
+Ign:1 http://ppa.launchpad.net/cwchien/gradle/ubuntu jammy InRelease
+Ign:2 http://ppa.launchpad.net/fenics-packages/fenics/ubuntu jammy InRelease
+Ign:3 http://ppa.launchpad.net/haxe/releases/ubuntu jammy InRelease
+Ign:4 http://ppa.launchpad.net/c2d4u.team/c2d4u4.0+/ubuntu jammy InRelease
+Ign:5 http://ppa.launchpad.net/plt/racket/ubuntu jammy InRelease
+Ign:6 http://ppa.launchpad.net/sumo/stable/ubuntu jammy InRelease
+Ign:7 https://ppa.launchpadcontent.net/cantera-team/cantera/ubuntu jammy InRelease
+Ign:8 https://ppa.launchpadcontent.net/macaulay2/macaulay2/ubuntu jammy InRelease
+Ign:9 https://ppa.launchpadcontent.net/mozillateam/ppa/ubuntu jammy InRelease
+Ign:10 https://qgis.org/ubuntu jammy InRelease
+Ign:11 https://apt.kitware.com/ubuntu jammy InRelease
+Ign:12 https://qgis.org/debian bullseye InRelease
+Ign:13 http://ftp.texmacs.org/TeXmacs/tmftp/repos/apt yakkety InRelease
+Ign:14 http://www-fourier.univ-grenoble-alpes.fr/~parisse/debian stable InRelease
+Ign:15 https://packagecloud.io/github/git-lfs/ubuntu jammy InRelease
+Ign:16 https://deb.nodesource.com/node_18.x jammy InRelease
+Ign:17 https://repo.scala-sbt.org/scalasbt/debian  InRelease
+Ign:18 http://apt.postgresql.org/pub/repos/apt jammy-pgdg InRelease
+Ign:19 https://dl.google.com/linux/chrome/deb stable InRelease
+Ign:28 https://storage.googleapis.com/bazel-apt stable InRelease
+Ign:20 https://cli.github.com/packages stable InRelease
+Ign:21 https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/ InRelease
+Ign:22 https://cli-assets.heroku.com/apt ./ InRelease
+Ign:23 http://apt.materialize.com generic InRelease
+Ign:25 http://archive.ubuntu.com/ubuntu jammy InRelease
+Ign:26 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
+Ign:27 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
+Ign:24 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Err:1 http://ppa.launchpad.net/cwchien/gradle/ubuntu jammy InRelease
+  Could not connect to ppa.launchpad.net:80 (185.125.190.80), connection timed out
+Err:2 http://ppa.launchpad.net/fenics-packages/fenics/ubuntu jammy InRelease
+  Unable to connect to ppa.launchpad.net:http:
+Err:3 http://ppa.launchpad.net/haxe/releases/ubuntu jammy InRelease
+  Unable to connect to ppa.launchpad.net:http:
+Err:4 http://ppa.launchpad.net/c2d4u.team/c2d4u4.0+/ubuntu jammy InRelease
+  Unable to connect to ppa.launchpad.net:http:
+Err:5 http://ppa.launchpad.net/plt/racket/ubuntu jammy InRelease
+  Unable to connect to ppa.launchpad.net:http:
+Err:6 http://ppa.launchpad.net/sumo/stable/ubuntu jammy InRelease
+  Unable to connect to ppa.launchpad.net:http:
+Err:7 https://ppa.launchpadcontent.net/cantera-team/cantera/ubuntu jammy InRelease
+  Could not connect to ppa.launchpadcontent.net:443 (185.125.190.80), connection timed out
+Err:8 https://ppa.launchpadcontent.net/macaulay2/macaulay2/ubuntu jammy InRelease
+  Unable to connect to ppa.launchpadcontent.net:https:
+Err:9 https://ppa.launchpadcontent.net/mozillateam/ppa/ubuntu jammy InRelease
+  Unable to connect to ppa.launchpadcontent.net:https:
+Err:10 https://qgis.org/ubuntu jammy InRelease
+  Could not connect to qgis.org:443 (95.217.26.231), connection timed out
+Err:11 https://apt.kitware.com/ubuntu jammy InRelease
+  Could not connect to apt.kitware.com:443 (66.194.253.25), connection timed out
+Err:12 https://qgis.org/debian bullseye InRelease
+  Unable to connect to qgis.org:https:
+Err:13 http://ftp.texmacs.org/TeXmacs/tmftp/repos/apt yakkety InRelease
+  Could not connect to ftp.texmacs.org:80 (193.55.176.20), connection timed out
+Err:14 http://www-fourier.univ-grenoble-alpes.fr/~parisse/debian stable InRelease
+  Could not connect to www-fourier.univ-grenoble-alpes.fr:80 (129.88.208.3), connection timed out
+Err:15 https://packagecloud.io/github/git-lfs/ubuntu jammy InRelease
+  Could not connect to packagecloud.io:443 (52.9.236.142), connection timed out Could not connect to packagecloud.io:443 (54.219.43.25), connection timed out
+Err:16 https://deb.nodesource.com/node_18.x jammy InRelease
+  Could not connect to deb.nodesource.com:443 (104.22.5.26), connection timed out Could not connect to deb.nodesource.com:443 (172.67.10.205), connection timed out Could not connect to deb.nodesource.com:443 (104.22.4.26), connection timed out
+Err:17 https://repo.scala-sbt.org/scalasbt/debian  InRelease
+  Could not connect to repo.scala-sbt.org:443 (104.26.8.110), connection timed out Could not connect to repo.scala-sbt.org:443 (104.26.9.110), connection timed out Could not connect to repo.scala-sbt.org:443 (172.67.69.109), connection timed out
+Err:18 http://apt.postgresql.org/pub/repos/apt jammy-pgdg InRelease
+  Could not connect to apt.postgresql.org:80 (87.238.57.227), connection timed out Could not connect to apt.postgresql.org:80 (217.196.149.55), connection timed out Could not connect to apt.postgresql.org:80 (72.32.157.246), connection timed out Could not connect to apt.postgresql.org:80 (147.75.85.69), connection timed out
+Err:19 https://dl.google.com/linux/chrome/deb stable InRelease
+  Could not connect to dl.google.com:443 (173.194.216.190), connection timed out Could not connect to dl.google.com:443 (173.194.216.91), connection timed out Could not connect to dl.google.com:443 (173.194.216.93), connection timed out Could not connect to dl.google.com:443 (173.194.216.136), connection timed out
+Err:20 https://cli.github.com/packages stable InRelease
+  Could not connect to cli.github.com:443 (185.199.110.153), connection timed out Could not connect to cli.github.com:443 (185.199.108.153), connection timed out Could not connect to cli.github.com:443 (185.199.111.153), connection timed out Could not connect to cli.github.com:443 (185.199.109.153), connection timed out
+Err:21 https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/ InRelease
+  Could not connect to cloud.r-project.org:443 (108.139.15.91), connection timed out Could not connect to cloud.r-project.org:443 (108.139.15.18), connection timed out Could not connect to cloud.r-project.org:443 (108.139.15.54), connection timed out Could not connect to cloud.r-project.org:443 (108.139.15.85), connection timed out
+Err:22 https://cli-assets.heroku.com/apt ./ InRelease
+  Could not connect to cli-assets.heroku.com:443 (18.160.60.14), connection timed out Could not connect to cli-assets.heroku.com:443 (18.160.60.99), connection timed out Could not connect to cli-assets.heroku.com:443 (18.160.60.110), connection timed out Could not connect to cli-assets.heroku.com:443 (18.160.60.111), connection timed out
+Err:23 http://apt.materialize.com generic InRelease
+  Could not connect to apt.materialize.com:80 (13.32.230.2), connection timed out Could not connect to apt.materialize.com:80 (13.32.230.52), connection timed out Could not connect to apt.materialize.com:80 (13.32.230.126), connection timed out Could not connect to apt.materialize.com:80 (13.32.230.122), connection timed out
+Err:24 http://security.ubuntu.com/ubuntu jammy-security InRelease
+  Could not connect to security.ubuntu.com:80 (91.189.91.83), connection timed out Could not connect to security.ubuntu.com:80 (91.189.91.81), connection timed out Could not connect to security.ubuntu.com:80 (185.125.190.82), connection timed out Could not connect to security.ubuntu.com:80 (185.125.190.81), connection timed out Could not connect to security.ubuntu.com:80 (185.125.190.83), connection timed out Could not connect to security.ubuntu.com:80 (91.189.91.82), connection timed out
+Err:25 http://archive.ubuntu.com/ubuntu jammy InRelease
+  Could not connect to archive.ubuntu.com:80 (91.189.91.82), connection timed out Could not connect to archive.ubuntu.com:80 (185.125.190.82), connection timed out Could not connect to archive.ubuntu.com:80 (185.125.190.81), connection timed out Could not connect to archive.ubuntu.com:80 (91.189.91.83), connection timed out Could not connect to archive.ubuntu.com:80 (91.189.91.81), connection timed out Could not connect to archive.ubuntu.com:80 (185.125.190.83), connection timed out
+Err:26 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
+  Unable to connect to archive.ubuntu.com:http:
+Err:27 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
+  Unable to connect to archive.ubuntu.com:http:
+Ign:29 https://packages.microsoft.com/repos/code stable InRelease
+Ign:30 https://zotero.retorque.re/file/apt-package-archive ./ InRelease
+Ign:28 https://storage.googleapis.com/bazel-apt stable InRelease
+Ign:29 https://packages.microsoft.com/repos/code stable InRelease
+Ign:30 https://zotero.retorque.re/file/apt-package-archive ./ InRelease
+Ign:28 https://storage.googleapis.com/bazel-apt stable InRelease
+Ign:29 https://packages.microsoft.com/repos/code stable InRelease
+Ign:30 https://zotero.retorque.re/file/apt-package-archive ./ InRelease
+Err:28 https://storage.googleapis.com/bazel-apt stable InRelease
+  Could not connect to storage.googleapis.com:443 (74.125.196.207), connection timed out Could not connect to storage.googleapis.com:443 (108.177.12.207), connection timed out Could not connect to storage.googleapis.com:443 (108.177.11.207), connection timed out Could not connect to storage.googleapis.com:443 (74.125.141.207), connection timed out Could not connect to storage.googleapis.com:443 (172.217.203.207), connection timed out Could not connect to storage.googleapis.com:443 (142.250.98.207), connection timed out Could not connect to storage.googleapis.com:443 (173.194.212.207), connection timed out Could not connect to storage.googleapis.com:443 (74.125.26.207), connection timed out Could not connect to storage.googleapis.com:443 (172.217.204.207), connection timed out Could not connect to storage.googleapis.com:443 (173.194.215.207), connection timed out Could not connect to storage.googleapis.com:443 (74.125.139.207), connection timed out Could not connect to storage.googleapis.com:443 (173.194.216.207), connection timed out Could not connect to storage.googleapis.com:443 (173.194.217.207), connection timed out Could not connect to storage.googleapis.com:443 (74.125.134.207), connection timed out Could not connect to storage.googleapis.com:443 (173.194.210.207), connection timed out Could not connect to storage.googleapis.com:443 (142.251.107.207), connection timed out
+Err:29 https://packages.microsoft.com/repos/code stable InRelease
+  Could not connect to packages.microsoft.com:443 (13.107.246.40), connection timed out
+Err:30 https://zotero.retorque.re/file/apt-package-archive ./ InRelease
+  Could not connect to zotero.retorque.re:443 (172.67.136.194), connection timed out Could not connect to zotero.retorque.re:443 (104.21.54.76), connection timed out
+Reading package lists...
+Updates available</td></tr>
+<tr><td>Ensure permissions on /etc/passwd are configured</td><td>644</td></tr>
+<tr><td>Ensure permissions on /etc/shadow are configured</td><td>640</td></tr>
+<tr><td>Ensure SSH access is limited</td><td>Not configured</td></tr>
+<tr><td>Ensure firewall is enabled</td><td>Disabled</td></tr>
+<tr><td>Ensure iptables rules exist</td><td>Not configured</td></tr>
+<tr><td>Ensure SELinux is not enabled</td><td>Not applicable</td></tr>
+<tr><td>Ensure password expiration is set</td><td>99999 days</td></tr>
+<tr><td>Ensure lockout for failed login attempts</td><td>Not configured</td></tr>
+<tr><td>Ensure the system is not accepting ICMP redirects</td><td>1</td></tr>
+<tr><td>Ensure IP forwarding is disabled</td><td>0</td></tr>
+<tr><td>Ensure the system's timezone is set</td><td></td></tr>
+<tr><td>Ensure automatic updates are enabled</td><td>install ok installed
+Enabled</td></tr>
+<tr><td>Check for unused packages</td><td>15 unused packages</td></tr>
+<tr><td>Ensure NTP is configured</td><td></td></tr>
+<tr><td>Ensure /tmp is mounted with noexec</td><td>Not configured</td></tr>
+<tr><td>Ensure core dumps are restricted</td><td>Not restricted</td></tr>
+<tr><td>Ensure auditd is installed and running</td><td></td></tr>
+<tr><td>Ensure password complexity is configured</td><td>Not configured</td></tr>
+<tr><td>Ensure root login is disabled</td><td>Enabled</td></tr>
+</table>
+<hr>
+<footer>Generated by Security Audit Script</footer>
+</body>
+</html>
