@@ -1,0 +1,33 @@
+Section,Property,Value
+System Information,Hostname,project-817627b2-9287-44c4-81c7-89746fe74c7e
+System Information,Operating System,Ubuntu 22.04.5 LTS
+System Information,Kernel Version,5.15.0-1046-gcp
+System Information,Uptime,"up 1 week, 1 day, 3 hours, 57 minutes"
+System Information,Architecture,x86_64
+User Accounts,Total Users,46
+User Accounts,Administrator Accounts,1
+User Accounts,Accounts with No Password,0
+Password Policies,Password Expiration,99999 days
+Password Policies,Password Minimum Length,characters
+Password Policies,Password Complexity Requirements,SHA512
+SSH Configuration,PermitRootLogin,Enabled
+SSH Configuration,PasswordAuthentication,Enabled
+SSH Configuration,PermitEmptyPasswords,Not Allowed
+Firewall Status,UFW Status,Inactive
+File Permissions,/etc/shadow,-rw-r-----
+File Permissions,/etc/passwd,-rw-r--r--
+File Permissions,SSH keys,-rw------- -rw------- -rw-------
+Installed Packages,Total Installed Packages,10277
+Installed Packages,Vulnerable Packages,r-base-dev/jammy-cran40 4.4.1-1.2204.0 [upgradable]
+Installed Packages,Updates Status,Updates available for installation.
+Memory and Processes,Total Memory,31Gi
+Memory and Processes,Used Memory,8.4Gi
+Memory and Processes,Total Processes,11
+Memory and Processes,Running Processes,10
+Disk Information,Filesystem,overlay
+Disk Information,Size,170G
+Disk Information,Used,66G
+Disk Information,Available,104G
+Networking Information,Hostname,project-817627b2-9287-44c4-81c7-89746fe74c7e
+Networking Information,IP Address,192.168.112.158
+Networking Information,Network Interfaces,tunl0@NONE eth0@if3476 b7
